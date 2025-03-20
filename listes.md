@@ -521,11 +521,10 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de mÃ
 
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
-
+---
 l1=[2,5,8,12,14,3]
 l2=[3,1,-1]
 
----
 def intersection(l1,l2):
   l3=list()
   for e in l1:
