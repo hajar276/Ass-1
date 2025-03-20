@@ -1,4 +1,3 @@
-
 ---
 jupytext:
   cell_metadata_filter: -all
