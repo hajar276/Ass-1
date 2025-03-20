@@ -203,9 +203,7 @@ Si cette valeur maximale est présente plusieurs fois dans la liste, on retourne
 ```
 
 ## correction 2 
-
----
-
+```
 l =[5,12,48,-2,0,-48,5,12]
 def posmax(l):
     m, k=l[0],0
@@ -217,16 +215,9 @@ def posmax(l):
    
    
 print("Max est ", posmax(l))
+---
 
- 
- ---
- 
-
-<div id="pad_4.1" class="pad"></div>
-<script>
-    Pythonpad('pad_4.1', 
-              {'id': '4.1', 
-               'title': 'Testez votre solution ici', 
+ 'title': 'Testez votre solution ici', 
                'src': '# Complétez ce code'})
 </script>
 
@@ -530,4 +521,19 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m�
 
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
+
+l1=[2,5,8,12,14,3]
+l2=[3,1,-1]
+
+---
+def intersection(l1,l2):
+  l3=list()
+  for e in l1:
+    if e in l2:
+        l3.append(e)
+  return l3
+print(intersection(l1,l2))
+---
+
 3. [Union de listes](ex4.3)
+
